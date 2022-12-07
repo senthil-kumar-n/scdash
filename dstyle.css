@@ -1,0 +1,24 @@
+.cardcontainer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(235, 229, 225);
+    padding: 20px;
+    height: auto;
+    
+}
+
+@media (max-width: 800px) {
+    .cardcontainer {
+      flex-direction: column;
+    }
+}
+.box{
+   
+    width: 400px;
+    height: 150px;
+    background-color:rgb(255, 255, 255);
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
